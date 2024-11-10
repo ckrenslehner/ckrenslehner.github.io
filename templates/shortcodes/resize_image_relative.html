@@ -1,0 +1,2 @@
+{% set image = resize_image(path=path, height=height, width=width, op="fit", quality=100) %}
+<img src="{{ image.url }}" />
