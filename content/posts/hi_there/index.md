@@ -92,7 +92,7 @@ After my domain was verified, I followed [this section](https://docs.github.com/
 |------|-------|------------------------|
 | blog | CNAME | ckrenslehner.github.io |
 
-So now the DNS provider is set up to route `blog.ckrenslehner.at` to `ckrenslehner.github`. To seal the deal a `CNAME` file must be in the root of the `gh-pages` branch. As stated [here](https://www.getzola.org/documentation/deployment/github-pages/#custom-domain), there needs to be a `CNAME` file in the `static` directory for zola to copy it to correct position. So I added the following:
+So now the DNS provider is set up to route `blog.ckrenslehner.at` to `ckrenslehner.github.io`. To seal the deal a `CNAME` file must be in the root of the `gh-pages` branch. As stated [here](https://www.getzola.org/documentation/deployment/github-pages/#custom-domain), there needs to be a `CNAME` file in the `static` directory for zola to copy it to correct position. So I added the following:
 
 {{ add_src_to_code_block(src="static/CNAME") }}
 ```
